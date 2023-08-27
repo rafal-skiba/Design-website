@@ -36,6 +36,8 @@ body {
   font-weight: 500;
   padding: 12px 24px;
   display: inline-block ;
+  box-shadow: -1px 10px 6px -9px rgba(148, 148, 148, 1);
+  border-radius:4000px;
 }
 
 .btn:hover {
@@ -64,6 +66,23 @@ section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 80px;
+}
+
+.grid-3-cols .col{
+  box-shadow: -1px 13px 24px -10px rgba(148, 148, 148, 0.7);
+  padding: 16px;
+  display: inline;
+  border-radius: 10px;
+}
+
+.icon {
+  width: 36px;
+  height: 36px;
+  stroke: #fff;
+  border-radius: 50%;
+  background-color:#0b7285;
+  padding: 6px;
+  margin-bottom: 10px;
 }
 
 /* ------------------------ */
@@ -104,6 +123,7 @@ h2 {
 
 img {
   width: 100%;
+  border-radius:10px;
 }
 
 /* FEATURES */
@@ -125,6 +145,7 @@ img {
   background-color: #0b7285;
   color: #fff;
   padding: 30px;
+  border-radius:10px;
 }
 
 .testimonial-box {
@@ -145,8 +166,18 @@ img {
 }
 
 /* CHAIRS */
+
+figure {
+  box-shadow: -1px 13px 24px -10px rgba(148, 148, 148, 0.7);
+  border-radius:10px;
+}
+
 .chair-box {
   padding: 24px;
+}
+
+.chair img {
+ border-radius: 10px 10px 0 0;
 }
 
 h3 {
